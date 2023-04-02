@@ -5,7 +5,7 @@ elseif game.PlaceId == 4520749081 or game.PlaceId == 6381829480 or game.PlaceId 
 elseif game.PlaceId == 4996049426 or game.PlaceId == 7785334488 then
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/WxHxCxKxExR/Normal_Pc/main/AST-PC.lua"), true))();
 elseif game.PlaceId == 6299805723 then
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/WxHxCxKxExR/Normal_Mb/main/AFS_PC.lua"), true))();
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/WxHxCxKxExR/Normal_Pc/main/AFS_PC.lua"), true))();
 else
     game.Players.LocalPlayer:Kick("Normal Hub :: Not Support This Game")
 end
