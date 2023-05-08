@@ -5019,7 +5019,9 @@ local i, k, j = tostring(number):match("(%-?%d?)(%d*)(%.?.*)")
 return i..k:reverse():gsub("(%d%d%d)", "%1,"):reverse()..j
 end
 
-local Window = loadstring(game:HttpGet(("https://raw.githubusercontent.com/WxHxCxKxExR/Normal_Pc/main/UI_MB_SALFES.lua"), true))();
+local Library = loadstring(game:HttpGet(("https://raw.githubusercontent.com/WxHxCxKxExR/Normal_Pc/main/UI_MB_SALFES.lua"), true))();
+
+local Window = Library:Window() ; 
 
 local Main = Window:Tab('6034744031',"Main")
 local Item = Window:Tab('6031360355','Item')
