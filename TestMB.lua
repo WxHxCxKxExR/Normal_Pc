@@ -1,5 +1,7 @@
 
-local Window = loadstring(game:HttpGet(("https://raw.githubusercontent.com/WxHxCxKxExR/Normal_Pc/main/UI_MB_SALFES.lua"), true))();
+local Library = loadstring(game:HttpGet(("https://raw.githubusercontent.com/WxHxCxKxExR/Normal_Pc/main/UI_MB_SALFES.lua"), true))();
+
+local Window = Library:Window(); 
 
 Window:SetBeli("wokr","asd",Color3.fromRGB(255, 183, 0))
 
