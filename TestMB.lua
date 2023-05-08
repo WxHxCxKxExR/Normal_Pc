@@ -1,5 +1,5 @@
 
-local Library = loadstring(game:HttpGet(("https://raw.githubusercontent.com/WxHxCxKxExR/Normal_Pc/main/UI_MB_SALFES.lua"), true))();
+local Library = loadstring(game:HttpGet(("https://raw.githubusercontent.com/WxHxCxKxExR/Normal_Pc/main/UI_MB_SALFESx2.lua"), true))();
 
 local Window = Library:Window(); 
 
@@ -21,6 +21,7 @@ Tab1:AddButton("Work",function()
     
 end)
 
+Tab1:AddLabel("TEST JA")
 Tab1:AddLine()
 
 Tab1:AddSlider("Slider",1,100,50,function()
